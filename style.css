@@ -1,0 +1,64 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+#clock-container {
+    height: 20vh;
+    width: 40vw;
+    /* 	border: 2px solid red; */
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+}
+
+.boxes {
+    border: 2px solid white;
+    border-radius: 10px;
+    height: 30vh;
+    width: 30vw;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    font-weight: bolder;
+}
+
+.time_box {
+    /* 	border: 2px solid yellow; */
+    height: 11vh;
+    width: 5vw;
+    align-self: center;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
+
+}
+
+p {
+    text-align: center;
+    font-size: 30px;
+}
+
+span {
+    font-size: 55px;
+}
+
+body>p {
+    color: wheat;
+    position: absolute;
+    top: 15%;
+    left: 43%;
+    transform: (-50%, -50%);
+    font-weight: bold;
+}
